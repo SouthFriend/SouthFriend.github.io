@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>自配电脑价格计算器</title>
+	<link rel="stylesheet" href="style.css" />
+	<script src="scripts.js"></script>
+</head>
+<body>
+	<div>
+		<h1>自配电脑价格计算器</h1>
+		<p>您的预算范围</p>
+		<input type="number" id="最小值" placeholder="最小值"/>~<input type="number" id="最大值" placeholder="最大值"/>元
+		<p>GPU品牌选择</p>
+		<input type="radio" name="GPU" id="nvidia" /><label for="nvidia">nvidia</label>
+		<input type="radio" name="GPU" id="amd" /><label for="amd">AMD</label>
+		<input type="radio" name="GPU" id="摩尔线程" /><label for="摩尔线程">摩尔线程</label>
+		<P>CPU品牌选择</P>
+		<input type="radio" name="CPU" id="intel" /><label for="intel">intel</label>
+		<input type="radio" name="CPU" id="AMD" /><label for="AMD">AMD</label>
+		<P>您的其他要求:</P>
+		<textarea id="其他要求" placeholder="描述您的其他需求,如硬盘品牌等,有概率失效"></textarea><br />
+		<input type="button" value="确定" /><br />
+		<p id="提示"></p>
+		<progress value="0" max="100"></progress>
+	</div>
+	
+</body>
+</html>

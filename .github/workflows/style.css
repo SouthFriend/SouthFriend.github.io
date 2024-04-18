@@ -1,0 +1,30 @@
+body {
+  /* 使用GIF作为背景图像 */
+  background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2xxem9nNThmbXI5b2JqNzR3d2d4NTJtOG5ybXBobDhmdjR4YTl1YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Bwj9Si1qsCe3Sqreip/giphy.gif');
+  
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ffffff; /* 可以根据您的设计选择合适的背景颜色 */
+}
+
+div{
+	text-align: center;
+}
+#最小值,#最大值{
+	width: 4rem;
+}
+#其他要求{
+	height: 7rem;
+	width: 10rem;
+}
+input[value="确定"]{
+	height: 2rem;
+	width: 4rem;
+	margin: 0.8rem;
+}
+progress{
+	height: 1rem;
+	width: 10rem;
+}
